@@ -34,3 +34,4 @@ setTimeout(() => {
     clearInterval(interval);
     console.log("Interval stopped");
 }, 10000)
+
