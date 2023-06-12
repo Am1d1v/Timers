@@ -22,3 +22,15 @@ setTimeout(() => {
 
 //=============================
 
+setInterval(() => {
+    console.log(new Date());
+}, 1000);
+
+const interval = setInterval(() => {
+    console.log(new Date());
+}, 1000);
+
+setTimeout(() => {
+    clearInterval(interval);
+    console.log("Interval stopped");
+}, 10000)
